@@ -7,12 +7,26 @@
     "dev": "nodemon app.js"
   },
   "keywords": [],
+  "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "helmet": "^8.3.0",
+    "joi": "^18.3.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sekeorioye/week3-crud-todo-api.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sekeorioye/week3-crud-todo-api/issues"
+  },
+  "homepage": "https://github.com/sekeorioye/week3-crud-todo-api#readme"
 }
