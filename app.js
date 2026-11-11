@@ -15,7 +15,7 @@ let todos = [
 ];
 
 // GET All – Read
-app.get('/todos', (req, res, next) => {
+app.get('/', (req, res, next) => {
   try {
   res.status(200).json(todos); // Send array as JSON
 } catch (error) {
